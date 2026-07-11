@@ -1,0 +1,194 @@
+#Gitignore files are used to tell git which files it should ignore during a commit to avoid conflicts or leaking of sensitive data
+#Because I am still learning I was unsure what I would need git to ignore so this file is AI GENERATED
+
+###########################################
+# OS FILES
+###########################################
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+###########################################
+# IDE
+###########################################
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+###########################################
+# ENVIRONMENT VARIABLES
+###########################################
+
+.env
+.env.*
+!.env.example
+
+###########################################
+# PYTHON
+###########################################
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+venv/
+.venv/
+env/
+
+###########################################
+# JUPYTER
+###########################################
+
+.ipynb_checkpoints/
+
+###########################################
+# MACHINE LEARNING
+###########################################
+
+*.h5
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.ckpt
+
+mlruns/
+wandb/
+
+###########################################
+# DATASETS
+###########################################
+
+datasets/raw/*
+!datasets/raw/.gitkeep
+
+datasets/intermediate/*
+!datasets/intermediate/.gitkeep
+
+###########################################
+# DATABASES
+###########################################
+
+*.sqlite
+*.sqlite3
+*.db
+
+postgres_data/
+mysql_data/
+
+###########################################
+# FASTAPI
+###########################################
+
+logs/
+*.log
+
+###########################################
+# FLUTTER
+###########################################
+
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+build/
+
+###########################################
+# NODE / TYPESCRIPT
+###########################################
+
+node_modules/
+
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+dist/
+coverage/
+
+###########################################
+# BROWSER EXTENSION BUILDS
+###########################################
+
+extension_build/
+
+###########################################
+# GODOT
+###########################################
+
+.godot/
+
+export_presets.cfg
+
+*.translation
+
+###########################################
+# GAME BUILDS
+###########################################
+
+exports/
+builds/
+
+*.exe
+*.apk
+*.aab
+*.app
+*.ipa
+
+###########################################
+# AUDIO PROCESSING
+###########################################
+
+generated_audio/
+tts_cache/
+
+###########################################
+# DOCKER
+###########################################
+
+docker_data/
+docker_volumes/
+
+###########################################
+# TESTING
+###########################################
+
+test_output/
+screenshots/
+playwright-report/
+
+###########################################
+# DOCUMENTATION
+###########################################
+
+site/
+
+###########################################
+# SECRETS
+###########################################
+
+*.pem
+*.key
+*.crt
+*.p12
+*.secret
+secrets/
+
+###########################################
+# LOCAL CONFIGS
+###########################################
+
+local_settings.json
